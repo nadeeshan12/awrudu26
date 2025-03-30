@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <style>
+        .contact-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 40px 20px;
+            font-family: Arial, sans-serif;
+        }
+
+        .contact-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 30px;
+            margin-top: 40px;
+        }
+
+        .contact-card {
+            background: #ffffff;
+            border-radius: 10px;
+            padding: 30px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .contact-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .whatsapp-section {
+            background: #25D366;
+            color: white;
+            text-align: center;
+            padding: 40px;
+            border-radius: 10px;
+            margin-top: 40px;
+        }
+
+        .whatsapp-button {
+            display: inline-block;
+            background: white;
+            color: #25D366;
+            padding: 15px 30px;
+            border-radius: 25px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: background 0.3s ease;
+        }
+
+        .whatsapp-button:hover {
+            background: #f0f0f0;
+        }
+
+        .contact-form input,
+        .contact-form textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 15px;
+            border: 1px solid #ddd;
+            border-radius: 5px;
+        }
+
+        .submit-button {
+            background: #007bff;
+            color: white;
+            border: none;
+            padding: 12px 25px;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background 0.3s ease;
+        }
+
+        .submit-button:hover {
+            background: #0056b3;
+        }
+    </style>
+</head>
+<body>
+    <div class="contact-container">
+        <h1>Contact Us</h1>
+        <div class="contact-grid">
+            <div class="contact-card">
+                <h2>Send us a message</h2>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea rows="5" placeholder="Your Message" required></textarea>
+                    <button type="submit" class="submit-button">Send Message</button>
+                </form>
+            </div>
+            <div class="contact-card">
+                <h2>Contact Information</h2>
+                <p>📍 Srilanka</p>
+                <p>📞 +94 71 877 4025</p>
+                <p>✉️ datalokka38@gmail.com</p>
+                <p>⏰ Full week: 9:00 AM - 6:00 PM</p>
+            </div>
+        </div>
+
+        <div class="whatsapp-section">
+            <h2>Join our WhatsApp Channel</h2>
+            <p>Stay updated with our latest news, updates, and exclusive offers!</p>
+            <a href="https://whatsapp.com/channel/0029Va9KonZ9WtC4ndf1z91R" class="whatsapp-button">
+                Join Channel
+            </a>
+        </div>
+    </div>
+</body>
+</html>

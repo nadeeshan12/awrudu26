@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us</title>
+    <style>
+        :root {
+            --primary-color: #9b4105;
+            --secondary-color: #F0F4F9;
+            --text-color: #333333;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: var(--secondary-color);
+            color: var(--text-color);
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 2rem;
+        }
+
+        .about-section {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 4rem 0;
+        }
+
+        .about-title {
+            color: var(--primary-color);
+            font-size: 2.5rem;
+            margin-bottom: 2rem;
+        }
+
+        .about-content {
+            max-width: 800px;
+            line-height: 1.6;
+            margin-bottom: 2rem;
+        }
+
+        .team-section {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 2rem;
+            margin-top: 3rem;
+        }
+
+        .team-member {
+            background-color: white;
+            padding: 1.5rem;
+            border-radius: 8px;
+            box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+        }
+
+        .team-member img {
+            width: 150px;
+            height: 150px;
+            border-radius: 50%;
+            margin-bottom: 1rem;
+        }
+
+        .team-member h3 {
+            color: var(--primary-color);
+            margin-bottom: 0.5rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <section class="about-section">
+            <h1 class="about-title">About Us</h1>
+            <div class="about-content">
+                <p>ඔබහට නවතම ඔන්ලයින් අව්රුදු උත්සවයක අත්දැකීම ලබාදීමෙ අරමුණින් ාප විසින් මෙය හදුන්වාදෙන ලදී,එදිනෙදා ඔබ දකින් ජන ක්‍රීඩා ඩිජිටල්කරණය කිරීම මෙහිදී සිදුව ඇත,මේ සදහා මූලිකත්වය ගෙන ශ්‍රීලංකාවේ ජනප්‍රියම සහ උසස්ම අධ්‍යාපනික නාලිකාව වන Explore lanka අප කටයුතු කර ඇත. මෙහිදී ගේම්ස් නිර්මාණය කිරීම නිර්මාල්  විසින් සිදුවිය ,වෙබ්පිටුව නිර්මාණය නදීශාන් විසින් සිදුවිය, නදීශ ප්‍රමුඛ Explore lanka සමූහයේ සියලු ඇඩ්මින් වරුන් මේ සදහා තමන්ගෙ පූර්ණ දායකත්වය ලබාදෙන ලදී.ඔබගේ විනොදය මෙයින් අපේක්ශා කරන්නෙමු,යාලුවන්ටත් දැනගන්න ශෙයා කරන්න උපරිම විනෝද වන්න . ඇසිදිසි මානයෙන් ඔබ්බට ඔබට සැමදා නවතම අත්දැකීමක් ලබාදෙන අපි Explore lanka .</p>
+            </div>
+            
+            <div class="team-section">
+                <div class="team-member">
+                    <img src="img/" alt="Team Member 1">
+                    <h3>Nirmal</h3>
+                    <p>Game Developer</p>
+                </div>
+                <div class="team-member">
+                    <img src="img/image1.jpg" alt="Team Member 2">
+                    <h3>Nadeeshan</h3>
+                    <p>Web designer</p>
+                </div>
+                <div class="team-member">
+                    <img src="img/" alt="Team Member 3">
+                    <h3>Nadeesha</h3>
+                    <p>Owner(Organizer)</p>
+                </div>
+                <div class="team-member">
+                    <img src="img/" alt="Team Member 3">
+                    <h3>Yanula</h3>
+                    <p>Admin</p>
+                </div>
+                <div class="team-member">
+                    <img src="img/" alt="Team Member 3">
+                    <h3>Rashmika</h3>
+                    <p>Admin</p>
+                </div>
+            </div>
+        </section>
+    </div>
+</body>
+</html>
